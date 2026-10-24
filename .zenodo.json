@@ -1,0 +1,15 @@
+{
+  "title": "Telemetry masking before language-model alert triage: code, derived data, analyst answers and results",
+  "description": "Code, derived alert bundles and prompts, every raw analyst answer and the evaluation results accompanying the manuscript 'Does redaction break the analyst? Masking security telemetry before language-model alert triage' (the manuscript itself is not included). Alert bundles built from the AIT Alert Data Set are masked with six schemes (redaction, random and consistent tokens, global and per-bundle Crypto-PAn pseudonyms, role tokens), plus a notice-matched control and a redaction ablation; five local open-weight models answer four triage tasks, and a protection audit measures residual identifiers, attribute disclosure and cross-bundle linkability. Derived data are distributed under CC BY 4.0 like the source data set.",
+  "upload_type": "software",
+  "license": "mit",
+  "creators": [
+    {"name": "Abdelhaliem, Amr H.", "affiliation": "Irbid National University"}
+  ],
+  "keywords": ["security operations centre", "alert triage", "large language models", "pseudonymisation",
+               "Crypto-PAn", "privacy", "linkability", "AIT Alert Data Set"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.8263181", "relation": "isDerivedFrom", "resource_type": "dataset"}
+  ],
+  "version": "1.0.0"
+}

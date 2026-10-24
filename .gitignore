@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+outputs/
+logs/
+models/
+bin/
+data/ait/
+data/ait_ads.zip
+data/labels.csv
+data/a_alerts.pkl
+*.pdf

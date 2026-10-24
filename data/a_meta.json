@@ -1,0 +1,145 @@
+{
+ "russellmitchell": {
+  "attacker": "172.19.131.174",
+  "span_days": 3.99,
+  "n": 45544,
+  "n_attack": 11164,
+  "steps": [
+   "network_scans",
+   "service_scans",
+   "dirb",
+   "wpscan",
+   "webshell",
+   "cracking",
+   "reverse_shell",
+   "privilege_escalation",
+   "service_stop",
+   "dnsteal"
+  ]
+ },
+ "santos": {
+  "attacker": "172.21.128.119",
+  "span_days": 3.99,
+  "n": 130779,
+  "n_attack": 11243,
+  "steps": [
+   "network_scans",
+   "service_scans",
+   "dirb",
+   "wpscan",
+   "webshell",
+   "cracking",
+   "reverse_shell",
+   "privilege_escalation",
+   "service_stop",
+   "dnsteal"
+  ]
+ },
+ "shaw": {
+  "attacker": "172.24.249.224",
+  "span_days": 5.98,
+  "n": 70782,
+  "n_attack": 6035,
+  "steps": [
+   "network_scans",
+   "service_scans",
+   "wpscan",
+   "dirb",
+   "webshell",
+   "cracking",
+   "reverse_shell",
+   "privilege_escalation",
+   "service_stop",
+   "dnsteal"
+  ]
+ },
+ "wardbeck": {
+  "attacker": "10.132.56.81",
+  "span_days": 5.0,
+  "n": 91257,
+  "n_attack": 6290,
+  "steps": [
+   "network_scans",
+   "service_scans",
+   "wpscan",
+   "dirb",
+   "webshell",
+   "cracking",
+   "reverse_shell",
+   "privilege_escalation",
+   "service_stop",
+   "dnsteal"
+  ]
+ },
+ "fox": {
+  "attacker": "172.17.130.196",
+  "span_days": 5.0,
+  "n": 473104,
+  "n_attack": 420285,
+  "steps": [
+   "network_scans",
+   "service_scans",
+   "wpscan",
+   "dirb",
+   "webshell",
+   "cracking",
+   "reverse_shell",
+   "privilege_escalation",
+   "service_stop",
+   "dnsteal"
+  ]
+ },
+ "harrison": {
+  "attacker": "10.237.1.238",
+  "span_days": 5.0,
+  "n": 593948,
+  "n_attack": 425812,
+  "steps": [
+   "network_scans",
+   "service_scans",
+   "wpscan",
+   "dirb",
+   "webshell",
+   "cracking",
+   "reverse_shell",
+   "privilege_escalation",
+   "service_stop",
+   "dnsteal"
+  ]
+ },
+ "wheeler": {
+  "attacker": "10.38.243.125",
+  "span_days": 5.0,
+  "n": 616161,
+  "n_attack": 431231,
+  "steps": [
+   "network_scans",
+   "service_scans",
+   "wpscan",
+   "dirb",
+   "webshell",
+   "reverse_shell",
+   "privilege_escalation",
+   "service_stop",
+   "dnsteal"
+  ]
+ },
+ "wilson": {
+  "attacker": "10.182.193.78",
+  "span_days": 5.99,
+  "n": 634246,
+  "n_attack": 435114,
+  "steps": [
+   "network_scans",
+   "service_scans",
+   "wpscan",
+   "dirb",
+   "webshell",
+   "cracking",
+   "reverse_shell",
+   "privilege_escalation",
+   "service_stop",
+   "dnsteal"
+  ]
+ }
+}

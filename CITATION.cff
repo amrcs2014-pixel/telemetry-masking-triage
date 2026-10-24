@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below, together with the AIT Alert Data Set."
+title: "Telemetry masking before language-model alert triage: code, derived data, analyst answers and results"
+type: software
+version: 1.0.0
+date-released: 2026-10-24
+license: MIT
+repository-code: "https://github.com/amrcs2014-pixel/telemetry-masking-triage"
+authors:
+  - family-names: "Abdelhaliem"
+    given-names: "Amr H."
+    affiliation: "Department of Cyber Security, Irbid National University, Irbid, Jordan"
+    email: "a.hasan@inu.edu.jo"
+keywords:
+  - security operations centre
+  - alert triage
+  - large language models
+  - pseudonymisation
+  - Crypto-PAn
+  - privacy
+  - linkability
+references:
+  - type: dataset
+    title: "AIT Alert Data Set"
+    authors:
+      - family-names: "Landauer"
+        given-names: "Max"
+    doi: 10.5281/zenodo.8263181
+    license: CC-BY-4.0
