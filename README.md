@@ -1,6 +1,6 @@
 # Telemetry masking before language-model alert triage
 
-Code, derived data, every analyst answer and the evaluation results accompanying the manuscript *Does redaction break the analyst? Masking security telemetry before language-model alert triage*. The manuscript itself is not included in this repository.
+Code, derived data, every analyst answer and the evaluation results accompanying the manuscript *Masking security telemetry for LLM-based alert triage: a privacy–utility evaluation of pseudonymisation schemes*. The manuscript itself is not included in this repository.
 
 The study asks two questions about masking identifiers in security alerts before a language model triages them:
 - **Utility:** what each masking scheme costs a local LLM analyst.

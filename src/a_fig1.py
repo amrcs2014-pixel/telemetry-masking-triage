@@ -3,6 +3,7 @@ Writes outputs/a_fig1_overview.pdf (vector) and .png (300 dpi)."""
 from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')
+matplotlib.rcParams['pdf.fonttype'] = 42  # embed TrueType, not Type 3, fonts in PDF figures
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch, Rectangle
 

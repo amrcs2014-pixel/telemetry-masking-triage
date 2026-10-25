@@ -6,6 +6,7 @@ from pathlib import Path
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
+matplotlib.rcParams['pdf.fonttype'] = 42  # embed TrueType, not Type 3, fonts in PDF figures
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch
 
